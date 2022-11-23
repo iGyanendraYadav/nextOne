@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;900&display=swap');
+
+
+.hero{
+display: flex;
+flex-direction: row;
+font-size: 100px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+
+}
+.leftOne{
+  display: flex;
+  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+
+}
+.rightOne{
+  margin-left: 150px;
+  margin-top: 30px;
+  height: 500px;
+  width: 500px;
+  border-radius: 100px;
+
+}
+
+.row2{
+  background: #5285c0;
+  color: white;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  padding: 35px;
+  letter-spacing: 8px;
+  word-spacing: 4px;
+}
+
+.copy{
+  color: black;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  padding: 35px;
+  letter-spacing: 8px;
+  word-spacing: 4px;
+}
+
+.row2items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.flexIcons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 25px;
+
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.r2Images{
+  width: 200px;
+  margin: 20px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.flexBox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.flexItems{
+  width: 30%;
+  height: 200px;
+  border-radius: 25px;
+  margin: 20px;
+  cursor: pointer;
+
+}
+
+.podBox{
+  background: #5285c0;
+  color: white;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  padding: 55px;
+  letter-spacing: 8px;
+  word-spacing: 4px;
+}
+
+.podcast{
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 15px;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  padding-left: 10px;
+
+}
+
+
+ 
+
+
+.main {
+  min-height: 150vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mainnav ul { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #222;
+  color: white;
+
+}
+
+.mainnav ul li{
+  margin: 0 24px;
+  font-weight: bold;
+  list-style: none;
+}
+
+
+
+
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+.betterlinq{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .hero{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align-last: center;
+    padding-bottom: 25px;
+ 
+    
+    }
+    .leftOne{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      width: 60%;
+    
+    }
+    .rightOne{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      height: 200px;
+      width: 200px;
+      border-radius: 25px;
+   
+    
+    }
+
+    .row2{
+      background: #5285c0;
+      color: white;
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 20px;
+      padding: 25px;
+      letter-spacing: 4px;
+      word-spacing: 2px;
+    }
+    
+    .row2items{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    
+    }
+    
+    .r2Images{
+      width: 300px;
+      height: 70px;
+      border-radius: 10px;
+    }
+
+    .copy{
+      color: black;
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 20px;
+      padding: 25px;
+      letter-spacing: 4px;
+      word-spacing: 2px;
+    }
+ 
+    
+    .flexBox{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    
+    
+    .flexItems{
+      width: 90%;
+      height: 300px;
+      border-radius: 25px;
+      margin: 20px;
+      cursor: pointer;
+    
+    }
+
+    
+.podBox{
+  background: #5285c0;
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  padding: 25px;
+  letter-spacing: 4px;
+  word-spacing: 2px;
+}
+
+.podcast{
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  padding-left: 30px;
+
+}
+
+.flexIcons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px;
+
+}
+
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mainnav ul li{
+    margin: 0 8px;
+    font-weight: bold;
+    list-style: none;
+  }
+}

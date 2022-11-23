@@ -1,0 +1,50 @@
+.out{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: darkslategray;
+    color: white;
+
+}
+
+.in{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+
+
+.in a{
+    text-decoration: none;
+    color: white;
+}
+
+.in a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+@media (max-width: 600px){
+    .out{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: start; */
+        /* align-items: flex-start; */
+        background: darkslategray;
+        color: white;
+        
+
+      
+
+    
+    }
+    
+    .in{
+        display: flex;
+        flex-direction: column;
+        margin-left: 140px;
+        /* padding-top: 20px; */
+    }
+}
+

@@ -50,7 +50,7 @@
 .sDetails{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    /* justify-content: start; */
     align-items: flex-start;
     width: 60%;
    
@@ -141,7 +141,7 @@
     .sDetails{
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        /* justify-content: start; */
         align-items: flex-start;
         width: 60%;
        

@@ -10,7 +10,7 @@ const About = () => {
         <title>BetterlinQ : About Us</title>
         <meta name="description" content="Content created by Gyanendra Yadav" />
         <link rel="icon" href="/favicon.ico" />
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
+        
       </Head>
       <div className={styles.quote}>
         We’re a highly collaborative and supportive team, coming together on

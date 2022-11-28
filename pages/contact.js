@@ -53,7 +53,7 @@ const Contact = () => {
         <title>BetterlinQ : Contact Us</title>
         <meta name="description" content="Content created by Gyanendra Yadav" />
         <link rel="icon" href="/favicon.ico" />
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'></link>
+
       </Head>
     <div className={styles.container}>
 
@@ -133,11 +133,11 @@ const Contact = () => {
       Join Me
 
       <div className={styles.flexIcons}>
-      <a href="https://github.com/iGyanendraYadav" target="_blank"><i className='bx bxl-github bx-lg'></i></a>
-      <a href="https://www.linkedin.com/in/igyanendrayadav/" target="_blank"><i className='bx bxl-linkedin-square bx-lg'></i></a>
-      <a href="https://www.facebook.com/iGyanendraYadav/" target="_blank"><i className='bx bxl-facebook-square bx-lg'></i></a>
-      <a href="https://www.instagram.com/iGyanendraYadav/" target="_blank"><i className='bx bxl-instagram bx-lg'></i></a>
-      <a href="https://twitter.com/iGyanendraYadav/" target="_blank"><i className='bx bxl-twitter bx-lg'></i></a>
+      <a href="https://github.com/iGyanendraYadav" target="_blank" rel="noreferrer"><i className='bx bxl-github bx-lg'></i></a>
+      <a href="https://www.linkedin.com/in/igyanendrayadav/" target="_blank" rel="noreferrer"><i className='bx bxl-linkedin-square bx-lg'></i></a>
+      <a href="https://www.facebook.com/iGyanendraYadav/" target="_blank" rel="noreferrer"><i className='bx bxl-facebook-square bx-lg'></i></a>
+      <a href="https://www.instagram.com/iGyanendraYadav/" target="_blank" rel="noreferrer"><i className='bx bxl-instagram bx-lg'></i></a>
+      <a href="https://twitter.com/iGyanendraYadav/" target="_blank" rel="noreferrer"><i className='bx bxl-twitter bx-lg'></i></a>
       </div>
     </div>
     </div>

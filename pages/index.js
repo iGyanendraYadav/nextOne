@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Link from "next/link";
+// import Link from "next/link";
+// import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 
@@ -18,7 +19,7 @@ export default function Home() {
         Welcome <br/>To The<br/>BLOG
       </div>
       <div >
-        <img src="error.jpg"  alt="heroImage" className={styles.rightOne} />
+        <img src="error.jpg"  alt="heroImage" className={styles.rightOne}/>
       </div>
     </div>
 
@@ -47,7 +48,7 @@ export default function Home() {
     </div>
 
 
-    <div className={styles.podBox}>
+    <div className={styles.podBox}> rel="noreferrer"
       Listen popular podcast
       <div className={styles.podcast} >
       <a href="#"><i className='bx bx-podcast'></i></a><a href=""><h2>Stop Procastination Just now</h2></a>
@@ -74,11 +75,11 @@ export default function Home() {
       Join Me
 
       <div className={styles.flexIcons}>
-      <a href="https://github.com/iGyanendraYadav" target="_blank"><i className='bx bxl-github bx-lg'></i></a>
-      <a href="https://www.linkedin.com/in/igyanendrayadav/" target="_blank"><i className='bx bxl-linkedin-square bx-lg'></i></a>
-      <a href="https://www.facebook.com/iGyanendraYadav/" target="_blank"><i className='bx bxl-facebook-square bx-lg'></i></a>
-      <a href="https://www.instagram.com/iGyanendraYadav/" target="_blank"><i className='bx bxl-instagram bx-lg'></i></a>
-      <a href="https://twitter.com/iGyanendraYadav/" target="_blank"><i className='bx bxl-twitter bx-lg'></i></a>
+      <a href="https://github.com/iGyanendraYadav" target="_blank" rel="noreferrer"><i className='bx bxl-github bx-lg'></i></a>
+      <a href="https://www.linkedin.com/in/igyanendrayadav/" target="_blank" rel="noreferrer"><i className='bx bxl-linkedin-square bx-lg'></i></a>
+      <a href="https://www.facebook.com/iGyanendraYadav/" target="_blank" rel="noreferrer"><i className='bx bxl-facebook-square bx-lg'></i></a>
+      <a href="https://www.instagram.com/iGyanendraYadav/" target="_blank" rel="noreferrer"><i className='bx bxl-instagram bx-lg'></i></a>
+      <a href="https://twitter.com/iGyanendraYadav/" target="_blank" rel="noreferrer"><i className='bx bxl-twitter bx-lg'></i></a>
       </div>
     </div>
 

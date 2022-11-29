@@ -29,15 +29,7 @@ jobs:
     - run: npm ci
     - run: npm run build
     - run: npm run export
-    - run: |
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
-          fi
-    
+
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:

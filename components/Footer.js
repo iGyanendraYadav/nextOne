@@ -17,7 +17,7 @@ const Footer = () => {
         <a href="#">Start Up</a>
         <a href="#">SEO</a>
         <a href="#">Digital Marketing</a>
-        <span>Developed by <a href="https://www.linkedin.com/in/igyanendrayadav/" target="_blank" >Gyan</a></span>
+        <span>Developed by <a href="https://www.linkedin.com/in/igyanendrayadav/" target="_blank" rel="noreferrer">Gyan</a></span>
       </div>
       <div className={styles.in}>
         <a href="#">Privacy</a>

@@ -19,17 +19,26 @@ export default function Home() {
         Welcome <br/>To The<br/>BLOG
       </div>
       <div >
+      <picture>
         <img src="error.jpg"  alt="heroImage" className={styles.rightOne}/>
+        </picture>
       </div>
     </div>
 
     <div className={styles.row2}>
       I have been Featured On
       <div className={styles.row2items}>
+        <picture>
         <img src="bbc.webp" alt="bbc" className={styles.r2Images} />
+        </picture>
+        <picture>
         <img src="fortune.webp" alt="fortune" className={styles.r2Images}  />
-        <img src="mint.webp" alt="mint" className={styles.r2Images}  />
+        </picture>
+        <picture>
+        <img src="mint.webp" alt="mint" className={styles.r2Images}  /></picture>
+        <picture>
         <img src="ndtv.webp" alt="ndtv" className={styles.r2Images} />
+        </picture>
       </div>
     </div>
 
@@ -38,17 +47,29 @@ export default function Home() {
       Read my awesome blogposts
 
       <div className={styles.flexBox}>
+      <picture>
         <img src="startup.webp" alt="startup" className={styles.flexItems} />
+        </picture>
+        <picture>
         <img src="blog.webp" alt="blog" className={styles.flexItems} />
+        </picture>
+        <picture>
         <img src="mmo.jpg" alt="mmo" className={styles.flexItems}  />
+        </picture>
+        <picture>
         <img src="yt.png" alt="yt" className={styles.flexItems}  />
+        </picture>
+        <picture>
         <img src="bt.png" alt="bt" className={styles.flexItems}  />
+        </picture>
+        <picture>
         <img src="program.jpg" alt="programming" className={styles.flexItems}  />
+        </picture>
       </div>
     </div>
 
 
-    <div className={styles.podBox}> rel="noreferrer"
+    <div className={styles.podBox}>
       Listen popular podcast
       <div className={styles.podcast} >
       <a href="#"><i className='bx bx-podcast'></i></a><a href=""><h2>Stop Procastination Just now</h2></a>

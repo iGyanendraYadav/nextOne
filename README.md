@@ -1,2 +1,3 @@
-This project is deployed on GitHub but there is  some issues.
-I will fix it later and will update the ReadMe file too.
+This is made using Next Js.
+
+I will update it later.

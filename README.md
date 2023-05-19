@@ -1,3 +1,5 @@
 This is made using Next Js.
 
-I will update it later.
+This needs some improvement.
+
+When i will get some rime, I will update it.

@@ -6,9 +6,11 @@ This is made with Next js.
 Please have a look once !!!
 
 
-## Tech Stack
+## Tech Stack 
 
 **Language** JavaScript
+
+**Version** ES6
 
 **Library** React Js
 
@@ -18,7 +20,7 @@ Please have a look once !!!
 
 ## Lessons Learned
 
-While building this project, I revised learning/use of these things. 
+While building this project, I revised the learning/use of these things. 
 - React Js & ES6
 
 
